@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-family: 'Goldman', cursive;
+}
+
+.custom_nav {
+    box-shadow: 0px 0px 10px rgba(122, 24, 187, 0.986);
+    background-color: rgba(21, 57, 155, 0.85) !important;
+    backdrop-filter: blur(5px);
+    /* font-size: small; */
+}
+
+.custom_nav ul.dropdown-menu {
+    font-size: small;
+}
+
+.custom-divider {
+    height: 5px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(47, 45, 193, 1) 5%, rgba(89, 121, 9, 1) 15%, rgba(131, 51, 35, 1) 24%, rgba(109, 64, 114, 0.9615196420365021) 34%, rgba(90, 133, 84, 1) 43%, rgba(77, 87, 144, 1) 51%, rgba(164, 63, 118, 1) 60%, rgba(145, 93, 102, 1) 68%, rgba(109, 140, 140, 1) 76%, rgba(73, 178, 80, 1) 84%, rgba(105, 191, 46, 1) 90%, rgba(0, 212, 255, 1) 100%);
+}
+
+.main-banner {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-image: url(images/aman.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    width: 100%;
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    border: 1px solid black;
+}
+
+.feature-holder {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+section.features {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: whitesmoke;
+}
+
+.feature-holder h3 {
+    font-size: 1.2em;
+}
+
+.feature-holder p {
+    font-size: 1em;
+}
+
+.online-course-text-wiget {
+    text-align: center;
+}
+
+.online-course-text-wiget h2 {
+    font-size: 1.4em;
+}
+
+.online-course-text-wiget p {
+    font-size: 14px;
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+/* .ssv {
+    font-family: "monoton";
+    font-size: 20px;
+    float: left;
+    color: rgb(27, 211, 231);
+    margin-top: 30px;
+    margin-left: 30px;
+    border-left: 10px solid green;
+    border-radius: 50%;
+    padding-left: 10px;
+} */
+
+#col-header-discription {
+    margin-top: 18%;
+    color: snow;
+    font-family: "monoton";
+}
+
+#aqua {
+    color: aqua;
+    margin-top: 1.5px;
+}
+
+.text {
+    text-decoration: none;
+    font-family: serif;
+}
+
+.header {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.238), rgba(45, 142, 147, 0.088)), url(https://images.unsplash.com/photo-1527607976958-7cbb4a6d0131?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGJsYWNrfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 110vh;
+}
+
+.line {
+    height: 5px;
+    background-color: aqua;
+}
+
+.about {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.238), rgba(45, 142, 147, 0.088)), url(https://images.unsplash.com/photo-1527607976958-7cbb4a6d0131?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGJsYWNrfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+    color: snow;
+    height: 98vh;
+}
+
+#about-us {
+    font-size: 30px;
+    font-family: 'monoton';
+    text-shadow: 0px 0px 5px aqua;
+    margin-bottom: 5px;
+}
+
+#line-small {
+    height: 5px;
+    background-color: aqua;
+    width: 80px;
+}
+
+.p-text {
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 15px;
+}
+
+.img-about {
+    height: 60vh;
+    width: auto;
+    padding-left: 0;
+}
+
+.border1 {
+    box-sizing: border-box;
+    border: 1px solid aqua;
+    background-color: rgba(75, 186, 173, 0.272);
+    font-family: italic;
+    /* position: relative; */
+    /* display: flex; */
+}
+
+.img-carousel {
+    min-height: 700px;
+    max-height: 700px;
+}
+
+#h1-carousel {
+    position: absolute;
+    bottom: 300px;
+    left: 60px;
+    font-size: 100px;
+    text-shadow: 0px 0px 5px aqua;
+}
+
+#h2-carousel {
+    position: absolute;
+    bottom: 100px;
+    left: 60px;
+    font-size: 50px;
+    text-align: left;
+}

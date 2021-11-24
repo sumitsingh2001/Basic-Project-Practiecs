@@ -1,0 +1,168 @@
+body {
+    background-image: url("images/bg.jpg");
+    display: flex;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+
+/* creating a custo font */
+
+@font-face {
+    font-family: nicefont;
+    src: url("../fonts/nicefont.otf")
+}
+
+#glass_footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    height: 45px;
+    text-shadow: 1px 1px 1px black;
+    background: rgb(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .5);
+    box-shadow: inset 0 1px rgba(255, 255, 255, .3), inset 0 10px rgba(70, 6, 6, 0.2), inset 0 10px 20px rgba(255, 255, 255, .25), inset 0 15px 30px rgba(255, 255, 255, .3);
+    color: rgb(208, 208, 208);
+}
+
+#footer_menu {
+    width: 100%;
+    height: 40px;
+}
+
+#calc_tab {
+    left: 102px;
+    width: 150px;
+}
+
+#calc_list {
+    display: none;
+    background: rgba(0, 0, 0, .6);
+    width: 180px;
+    padding: 5px;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#calc_list li {
+    widows: 180px;
+}
+
+#calc_tab:hover #calc_list {
+    display: block;
+    color: rgb(208, 208, 208)
+}
+
+.tab {
+    float: left;
+    position: absolute;
+    font-family: nicefont;
+    border-right: 2px solid rgba(255, 255, 255, .4);
+    text-align: center;
+    transition: background 1s;
+    height: 40px;
+}
+
+.tab:hover {
+    background: rgba(0, 0, 0, .3);
+    color: white;
+}
+
+#home_tab {
+    width: 100px;
+}
+
+#home_tab a {
+    height: 40px;
+    font-family: nicefont;
+}
+
+#display_tab {
+    width: 500px;
+    left: 254px;
+}
+
+#notifications_tab {
+    right: 105px;
+    font-weight: 130px;
+    border-right: none;
+}
+
+#notifications_tab:hover {
+    background: none;
+}
+
+#notifications_tab li {
+    width: 40px;
+    padding-top: 5px;
+    position: relative;
+}
+
+#notifications_tab li {
+    background: none;
+}
+
+#notifications:hover {
+    animation-name: example;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+}
+
+@keyframes example {
+    0% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: -10px;
+    }
+}
+
+#logout_tab {
+    padding-top: 8px;
+    width: 107px;
+    right: 1px;
+    font-family: Verdana;
+    border-right: none;
+}
+
+.logout:hover span {
+    position: relative;
+    bottom: 3px;
+}
+
+.logout_tab a {
+    height: 40px;
+    width: 107px;
+    display: block;
+}
+
+#logout_tab:hover a {
+    color: red;
+}
+
+.border_bottom_btn {
+    border-bottom: 1px solid white;
+}
+
+.add_padding_top {
+    padding-top: 8px;
+}
+
+.calc_list_item_height {
+    height: ;
+}

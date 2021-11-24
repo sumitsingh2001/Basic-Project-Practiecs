@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(231, 130, 193);
+    font-family: 'Luckiest Guy', cursive;
+    display: flex;
+}
+
+.main {
+    width: 1000px;
+    height: 500px;
+    border: 3px groove red;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* padding-top: 25px; */
+    /* position: relative; */
+}
+
+.main .left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+    background-color: #e53939;
+}
+
+.main .left h1 {
+    margin-top: 100px;
+}
+
+.left form input {
+    color: white;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1em;
+    width: 70%;
+    height: 35px;
+    background-color: #deab3e;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+
+.left form input:focus {
+    outline: none;
+}
+
+.left form input[type="submit"] {
+    background-color: #53de3e;
+    cursor: pointer;
+}
+
+.left form input[type="submit"]:hover {
+    color: red;
+    background-color: grey;
+}
+
+.left p.forget:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.left p.or {
+    font-size: 15px;
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    padding-top: 10px;
+    left: 95%;
+    top: 40%;
+    position: absolute;
+    background: #e53939;
+}
+
+.main .right {
+    text-align: center;
+}
+
+.main .right h1 {
+    margin-top: 100px;
+}
+
+.right .social {
+    margin-top: 40px;
+}
+
+.social button {
+    border: none;
+    padding: 15px;
+    width: 50px;
+    font-size: 18px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.social .twitter {
+    color: #55acee;
+    cursor: pointer;
+}
+
+.social .twitter:hover {
+    background: #55acee;
+    color: white;
+}
+
+.social .facebook {
+    color: #012677;
+    cursor: pointer
+}
+
+.social .facebook:hover {
+    background: #012677;
+    color: white;
+}
+
+.social .google {
+    color: #d50f25;
+    cursor: pointer
+}
+
+.social .google:hover {
+    background: #d50f25;
+    color: white;
+    cursor: pointer;
+}
